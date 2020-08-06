@@ -1,0 +1,32 @@
+{
+	"os":[
+		{"id":"1", "name":"Ubuntu"},
+    {"id":"2", "name":"Windows"}
+	],
+	"osversions":[
+		{"id":"1", "osId":"1", "name":"20.17.14"},
+		{"id":"2", "osId":"1", "name":"19.23.17"},
+		{"id":"3", "osId":"2", "name":"10.7"},
+		{"id":"4", "osId":"2", "name":"8.1"}
+	],
+	"dataCenteres":[
+		{"id":"1", "name":"Karachi"},
+    {"id":"2", "name":"Islamabad"}
+	],
+	"zones":[
+		{"id":"1", "dataCenterId":"1", "name":"KHI01"},
+		{"id":"2", "dataCenterId":"1", "name":"KHI02"},
+		{"id":"3", "dataCenterId":"2", "name":"ISB01"},
+		{"id":"4", "dataCenterId":"2", "name":"ISB02"}
+	],
+	"dataPlans":[
+		{"id":"1", "name":"General"},
+    {"id":"2", "name":"Basic"}
+	],
+	"datapackage":[
+		{"id":"1", "dataPlanId":"1", "name":"$40", "rate":"hours"},
+		{"id":"2", "dataPlanId":"1", "name":"$60", "rate":"hours"},
+		{"id":"3", "dataPlanId":"2", "name":"$400", "rate":"hours"},
+		{"id":"4", "dataPlanId":"2", "name":"$600", "rate":"hours"}
+	]
+}
